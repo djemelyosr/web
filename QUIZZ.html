@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZZ</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="topnav">
+        <h2>DJEMEL YOSR</h2>
+        <ul class="navbar">
+            <li><a href="index.html">ACCUEIL</a></li>
+            <li><a href="LESMATIERES.html">LES MATIERES</a></li>
+            <li><a href="PASSIONS.html">PASSIONS</a></li>
+            <li><a href="PARCOURS.html">PARCOURS</a></li>
+            <li><a href="CONTACT.html">CONTACT</a></li>
+            <li><a href="QUIZZ.html">QUIZZ</a></li>
+            <li><a href="IIT.html">IIT</a></li>
+            <li><a href="COMPETENCES.html">COMPETENCES </a></li>
+
+        </ul>
+    </div>
+    
+    
+      
+    <div class="menu-icon">
+        <i class="fas fa-bars"></i>
+    </div>
+    <div class="social-links">
+        <a href="https://www.instagram.com/votre_compte" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/votre_compte" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://wa.me/votre_numero" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <div class="quiz-container">
+        <h1>Quiz Géographie</h1>
+        <form id="quiz-form">
+            <!-- Question 1 -->
+            <div class="question">
+                <p>1. Quelle est la capitale de la France ?</p>
+                <input type="radio" name="q1" value="Paris" required> Paris<br>
+                <input type="radio" name="q1" value="Lyon"> Lyon<br>
+                <input type="radio" name="q1" value="Marseille"> Marseille<br>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">
+                <p>2. Quel est le plus grand océan du monde ?</p>
+                <input type="radio" name="q2" value="Atlantique" required> Atlantique<br>
+                <input type="radio" name="q2" value="Indien"> Indien<br>
+                <input type="radio" name="q2" value="Pacifique"> Pacifique<br>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question">
+                <p>3. Quelle est la montagne la plus haute du monde ?</p>
+                <input type="radio" name="q3" value="Mont Everest" required> Mont Everest<br>
+                <input type="radio" name="q3" value="K2"> K2<br>
+                <input type="radio" name="q3" value="Mont Fuji"> Mont Fuji<br>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question">
+                <p>4. Combien de pays composent l'Union Européenne ?</p>
+                <input type="radio" name="q4" value="28" required> 28<br>
+                <input type="radio" name="q4" value="27"> 27<br>
+                <input type="radio" name="q4" value="30"> 30<br>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question">
+                <p>5. Quelle est la plus grande île du monde ?</p>
+                <input type="radio" name="q5" value="Groenland" required> Groenland<br>
+                <input type="radio" name="q5" value="Borneo"> Borneo<br>
+                <input type="radio" name="q5" value="Madagascar"> Madagascar<br>
+            </div>
+
+            <!-- Question 6 -->
+            <div class="question">
+                <p>6. Le Nil traverse combien de pays ?</p>
+                <input type="radio" name="q6" value="11" required> 11<br>
+                <input type="radio" name="q6" value="10"> 10<br>
+                <input type="radio" name="q6" value="12"> 12<br>
+            </div>
+
+            <!-- Question 7 -->
+            <div class="question">
+                <p>7. Quel est le pays le plus peuplé du monde ?</p>
+                <input type="radio" name="q7" value="Chine" required> Chine<br>
+                <input type="radio" name="q7" value="Inde"> Inde<br>
+                <input type="radio" name="q7" value="États-Unis"> États-Unis<br>
+            </div>
+
+            <!-- Question 8 -->
+            <div class="question">
+                <p>8. Où se trouve la Tour Eiffel ?</p>
+                <input type="radio" name="q8" value="Paris" required> Paris<br>
+                <input type="radio" name="q8" value="Londres"> Londres<br>
+                <input type="radio" name="q8" value="Berlin"> Berlin<br>
+            </div>
+
+            <!-- Question 9 -->
+            <div class="question">
+                <p>9. Quel est le plus long fleuve du monde ?</p>
+                <input type="radio" name="q9" value="Nil" required> Nil<br>
+                <input type="radio" name="q9" value="Amazon"> Amazon<br>
+                <input type="radio" name="q9" value="Yangtsé"> Yangtsé<br>
+            </div>
+
+            <!-- Question 10 -->
+            <div class="question">
+                <p>10. Quelle est la capitale du Canada ?</p>
+                <input type="radio" name="q10" value="Ottawa" required> Ottawa<br>
+                <input type="radio" name="q10" value="Toronto"> Toronto<br>
+                <input type="radio" name="q10" value="Vancouver"> Vancouver<br>
+            </div>
+
+            <button type="button" onclick="submitQuiz()">Valider</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</div>
+
+
+
+</body>
+</html>
+
+<footer>
+    <p>&copy; 2024 Djemel Yosr - Tous droits réservés</p>
+</footer>
